@@ -29,22 +29,23 @@ header{
     font-family: 'Edu TAS Beginner', cursive;
 }
 main{
-    grid-area: main;s
+    grid-area: main;
 }
 footer {
     grid-area: footer;
     background-color: #333333;
     color: #FFFFFF;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.9em;
 }
 h1{
-    border-bottom: 3px soild #dfdfdf;
+    border-bottom: 3px solid #dfdfdf;
 }
 h2{
     margin-top: 48px;
-    border-left: 6px soild #dfdfdf;
+    border-left: 6px solid #dfdfdf;
     padding-left: 0.5em;
 }
 p{
